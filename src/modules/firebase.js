@@ -14,6 +14,7 @@ const config = {
 firebase.initializeApp(config)
 
 export const ref = firebase.database().ref()
+export const todoRef = firebase.database().ref('todos')
 
 const firebaseModule = new EventEmitter()
 

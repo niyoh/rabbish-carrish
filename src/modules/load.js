@@ -1,3 +1,3 @@
 import './firebase'
 
-import './sample'
+import './controllers'
